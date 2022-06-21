@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.miratsProductMainContainer{
+    width: 100%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    background-color: rgba(3, 3, 3, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.miratsProductFirstHeader{
+    width: 95%;
+    /* border: 1px solid green; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.miratsProductFirstHeader h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 600;
+}
+.miratsProductSecondHeader{
+    height: 55px;
+    width: 100%;
+    border-top: 0.4px solid rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.miratsProductSecondHeader h4{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+.miratsProductSecondHeader a{
+    text-decoration: none;
+    color: rgba(92, 140, 214, 1);
+    font-weight: 400;
+    font-size: 18px;
+}
+.miratsProductHeroContainer{
+    height: 100vh;
+    width: 100%;
+    background: url("../../assets/MiratsProductHero.png")no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.productHeroContentContainer{
+    width: 45%;
+    margin-left: 45px;
+    margin: 0 0 40px 45px;
+}
+.productHeroContentContainer h1{
+    color: rgba(200, 200, 200, 1);
+    font-weight: 700;
+    font-size: 55px;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+.productHeroContentContainer button{
+    background-color:  rgba(217, 217, 217, 1);
+    color: 
+    rgba(51, 51, 51, 0.88);
+    border: none;
+    border-radius: 40px;
+    width: 30%;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 16px 30px;
+    margin: 25px 0  15px 0;
+    cursor: pointer;
+}
+.productHeroContentContainer p{
+    width: 70%;
+    color: rgba(174, 174, 174, 1);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.miratsProductLaunch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0 80px 0;
+}
+.miratsProductLaunchHeadings{
+    margin:50px 0;
+    width: 95%;
+    display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.miratsProductLaunchHeadings h1{
+    width: 70%;
+color: rgba(200, 200, 200, 1);
+font-size: 47px;
+}
+.miratsProductLaunchDate{
+    width: 95%;
+    display: flex;
+    margin-top: 25px;
+    /* justify-content: space-between; */
+
+}
+.miratsProductLaunchDateLeft{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.miratsProductLaunchDateLeft h2{
+    font-size: 25px;
+    font-weight: 500;
+    color:   rgba(200, 200, 200, 1);
+}
+.miratsProductLaunchDateLeft h3{
+    font-size: 15bpx;
+    color:   rgba(200, 200, 200, 1);
+    width: 80%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.miratsProductLaunchDateLeft h1{
+    font-size: 50px;
+    color:   rgba(200, 200, 200, 1);
+
+}
+
+.miratsProductLaunchDateLeft button{
+    background-color:  rgba(217, 217, 217, 1);
+    color: 
+    rgba(51, 51, 51, 0.88);
+    border: none;
+    border-radius: 40px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 16px 30px;
+    margin: 25px 0  15px 0;
+    cursor: pointer;
+}
+.miratsProductLaunchDateRight{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.miratsProductLaunchDateRight h2{
+    font-size: 30px;
+    font-weight: 500;
+    color:   rgba(200, 200, 200, 1);
+}
+.miratsProductLaunchDateRight h3{
+    font-size: 20px;
+    color:   rgba(200, 200, 200, 1);
+    width: 80%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.miratsProductLaunchDateRight h1{
+    font-size: 50px;
+    color:   rgba(200, 200, 200, 1);
+
+}
+.miratsProductLaunchDate a{
+    text-decoration: none;
+ color: rgba(92, 140, 214, 1);
+ font-weight: 500;
+ font-size: 20px;
+}
+.miratsProductLaunchDateRight button{
+    background-color:  rgba(217, 217, 217, 1);
+    color: 
+    rgba(51, 51, 51, 0.88);
+    border: none;
+    border-radius: 40px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 16px 30px;
+    margin: 25px 0  15px 0;
+    cursor: pointer;
+}
+.miratsProductLaunchDateQuestionAndAnswerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #E5E5E5;
+}
+.miratsProductQuestionAnswerContentContainer{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.miratsProductQuestionAnswerContentContainer h1{
+    font-size: 66px;
+    color: rgba(51, 51, 51, 1);
+}
+.questionAndAnswerAccordion{
+    margin: 30px 0;
+    width: 90%;
+    background-color: transparent;
+}
+.miratsProductThankYouContainer{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px 0;
+}
+.miratsProductThankYouContainer h1{
+    font-size: 45px;
+}
+.AccordionTitle{
+    font-size: 36px !important;
+    color: rgba(51, 51, 51, 1) !important;
+    font-weight: 500 !important;
+}
+.AccordionDescription{
+    font-size: 20px !important;
+    color: rgba(51, 51, 51, 1) !important;
+    font-weight: 400 !important;
+}

@@ -1,0 +1,101 @@
+.signUpContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #3949AB;
+    /* background: rgb(150,233,255);
+    background: linear-gradient(90deg, rgba(150,233,255,1) 0%, rgba(115,197,255,1) 100%); */
+}
+.signUpContentContainer{
+    display: flex;
+    width: 70%;
+    height: 80vh;
+}
+
+.signUpLeft{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    border-right: none;
+}
+.signUpLeft img{
+    z-index: 9;
+    margin-top: 3vmax;
+    height: 40%;
+}
+.signUpLeft h3,h4{
+    color: white;
+
+}
+.signUpLeft h3{
+    margin-top: 0.5vmax;
+    font-size: 1.5vmax;
+    font-weight: 900;
+}
+.signUpLeft h4{
+    font-size: 1vmax;
+    margin-top: 0.5vmax;
+    font-weight: 400;
+}
+
+.signUpRight{
+    background-color: rgba(255, 255, 255, 0.772);
+    height: 100%;
+    width: 35%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    border-left: none;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.signUpRightContent{
+    /* border: 1px dashed #3949AB; */
+    text-align: center;
+    width: 80%;
+}
+
+.signUpRightContent h2{
+    color: rgba(52, 52, 52, 1);
+    padding: 1vmax 0;
+    font-size: 2.1vmax;
+    color: #3949AB;
+    
+}
+@media (max-width:600px){
+    .signUpContentContainer{
+        width:90%;
+        height: 90vh;
+    }
+    .signUpLeft{
+        display: none;
+    }
+    .signUpRight{
+        width: 100%;
+    }
+    .signUpRightContent h2{
+        padding: 2vmax 0;
+        font-size: 3.9vmax;
+    }
+    .signUpBtn{
+        font-size: 2.9vmax;
+        font-weight: 600;
+    }
+    .signUpBtnIcon{
+        height: 4vmax;
+        margin-left: 0vmax;
+    }
+}

@@ -1,0 +1,45 @@
+.welcomePageContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fce043;
+    height: 100vh;
+background-image: linear-gradient(25deg,#c2e048 0%, #fce043 20%, #fc8aac 74%,#e7c0d1);
+}
+.welcomePageContentContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.welcomePageContentContainer h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+}
+.welcomePageContentContainer h1 strong{
+    font-weight: 800;
+}
+.welcomePageContentContainer h4{
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    margin: 50px 0;
+    color: rgb(0,0,1);
+}
+.welcomePageContentContainer button{
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    padding: 15px 0;
+    color:  rgba(255, 255, 255, 1);
+    background-color: rgba(70, 70, 70, 1);
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}

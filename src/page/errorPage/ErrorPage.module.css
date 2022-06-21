@@ -1,0 +1,91 @@
+.forgotPasswordContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    position: relative;
+    background: url('https://i.pinimg.com/736x/87/7f/dd/877fdd28135789cfee47dabe5006b2e2.jpg');
+    background: url('https://img.freepik.com/free-vector/cartoon-galaxy-background_23-2148973051.jpg');
+   
+    backdrop-filter: blur( 400px );
+    -webkit-backdrop-filter: blur( 400px );
+    background-size: cover;
+    overflow: hidden;
+ 
+}
+.forgotPasswordContentContainer{
+    width: 81%;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 10; */
+}
+.forgotPasswordLeft{
+    width: 100%;
+   height: 100%;
+   /* border: 1px solid red; */
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.forgotPasswordInnerLeft{
+position: absolute;
+}
+.forgotPasswordInnerLeft h1{
+    font-size: 21vmax;
+    color: rgb(40, 33, 90);
+    animation: neon 0.4s infinite;
+}
+@keyframes neon{
+    0%,39%,41%,59%,61%,100%{
+        text-shadow: 1px 3px 5px red,2px -3px 5px yellow,2px -8px 5px rgb(65, 65, 166);
+
+    }
+    40%,60%{
+        text-shadow: none;
+    }
+}
+.forgotPasswordLeft img{
+    max-width: 30%;
+    height: auto;
+    animation: banana 2s ease-in-out infinite alternate;
+    z-index: 11;
+}
+.backBTN{
+    padding: 1vmax 1.5vmax;
+    font-weight: 600;
+    font-size: 1vmax;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.backContainer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+@keyframes banana{
+    from {
+        transform: rotate(0deg) ;
+        transform-origin: top;
+    }to{
+        transform: rotate(30deg);
+        transform-origin: top;
+    }
+}
+.forgotPasswordRight{
+    width: 50%;
+   height: 100%;
+
+}

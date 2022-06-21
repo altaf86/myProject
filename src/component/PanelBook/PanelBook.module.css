@@ -1,0 +1,144 @@
+.dragAndDropContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40% !important;
+    height: 300px;
+    padding:15px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 45px;
+}
+.dragAndDropLeft{
+    width: 50%;
+    height: 400px;
+}
+.fileDropArea{
+    height: 80%;
+    width: 100%;
+}
+
+.fileDropArea .dragTitle{
+  font-weight: 300;
+  padding: 25px 0 15px 0;
+  color: rgb(70, 68, 70);
+  font-size: 20px;
+}
+.fileDropArea h5{
+    font-weight: 400;
+    font-size: 13px;
+  color: rgb(70, 68, 70);
+
+}
+  .profileContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .upload {
+    margin: 4vmax 0 0 3vmax;
+    width: 100%;
+  }
+  .photo h3 {
+    font-size: 1.3vmax;
+    font-weight: 450;
+  }
+  
+  .photo img {
+    margin-top: 0.8vmax;
+  }
+  .uploadButton::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .uploadButton {
+    color: transparent;
+    position: absolute;
+    height:100%;
+    width: 100%;
+  }
+ .input_file_container{
+     height:30px;
+     width:120px;
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(69, 126, 229);
+     color: white;
+     border-radius: 8px;
+     margin-top: 15px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ .dragAndDropRight{
+    width: 50%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgb(251, 251, 251);
+}
+/* width */
+.dragAndDropRight::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .dragAndDropRight::-webkit-scrollbar-track {
+    box-shadow: transparent; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .dragAndDropRight::-webkit-scrollbar-thumb {
+    background: rgb(215, 215, 215); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .dragAndDropRight::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  .fileNameRow{
+    margin: 13px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fileNameRowLeft{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    gap: 13px;
+
+  }
+.fileNameRow span{
+    background-color: rgb(238, 244, 252);
+    border: 1px solid rgb(111, 169, 214);
+    height: 40px;
+    width: 40px;
+    font-weight: 700;
+    border-radius: 50%;
+    text-align: center;
+   color:rgb(111, 169, 214);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fileNameRow h1{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(70, 68, 70);
+}
+.fileNameRow h4{
+    color: grey;
+    font-weight: 500;
+    font-size: 9px;
+}
+.fileNameRow h5{
+    text-align: end;
+    /* align-self: flex-end;
+    justify-self: flex-end; */
+    /* float: right; */
+    margin-right: 10px;
+    cursor: pointer;
+    color: grey;
+}
+ 

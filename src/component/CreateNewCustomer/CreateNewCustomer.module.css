@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Google+Sans_old:400,500,700|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&amp;display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.createCustomerMainContainer{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    background-color: rgb(226, 224, 224);
+}
+.createCustomerMainContainer h4{
+    color: rgb(121, 120, 120);
+    margin-top: 35px;
+}
+.CreateNewCustomerContentContainer{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: 
+    center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+.createNewCostomerContentHeader{
+    /* border: 1px solid green; */
+    text-align: center;
+    width: 50%;
+    margin: 50px 0 20px 0;
+}
+.createNewCostomerContentHeader h1{
+font-size: 40px;
+font-weight: 600;
+}
+.createNewCostomerContentHeader p{
+    font-weight: 600;
+    margin:13px 0;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.createNewCostomerContentHeader p a{
+    text-decoration: none;
+    color: rgb(15, 132, 241);
+}
+.CreateNewCustomerContentContainer form{
+    width: 50%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nameInputContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameInputContainer input{
+    width: 48%;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 2.5px solid rgb(177, 175, 175);
+}
+.countryInputContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.countryInputContainer input{
+    margin: 8px 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px;
+    border: 2.5px solid rgb(177, 175, 175);
+}
+.hrLine{
+    border-top: 2px solid lightgray;
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+.companyDetailsContainer{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.companyDetailsContainer input{
+    margin: 8px 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px;
+    border: 2.5px solid rgb(177, 175, 175);
+}
+.yourDetailsContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.yourDetailsContainer input{
+    margin: 8px 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px;
+    border: 2.5px solid rgb(177, 175, 175);
+}
+.salesAccountContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.salesAccountContainer input{
+    margin: 8px 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px;
+    border: 2.5px solid rgb(177, 175, 175);
+}
+.salesAccountActionContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0 6px 0;
+    /* flex-direction: row-reverse; */
+}

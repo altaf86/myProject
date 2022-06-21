@@ -1,0 +1,162 @@
+.supplierPageMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.supplierPageContentContainer{
+    width: 80%;
+
+}
+.contentHeader{
+    text-align: center;
+    margin: 55px 0;
+}
+.contentHeader h5{
+    font-size: 22px;
+    font-weight: 400;
+}
+.contentHeader h1{
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+.contentHeader h3{
+    font-size: 35px;
+    font-weight: 400;
+margin:12px 0;
+line-height: 1.4;
+}
+.contentBody{
+    border: 1px solid rgba(0, 0, 0, 1);
+    width: 100%;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentBodyContentContainer{
+    width: 90%;
+    /* border: 2px solid black; */
+    padding: 40px 0;
+}
+.contentBodyContentContainer p{
+    padding-bottom: 20px;
+    width: 80%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 300;
+    line-height: 1.6;
+}
+.contentFooter{
+    margin: 40px 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+}
+.contentFooter h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(63, 63, 63, 1);
+    line-height: 2;
+}
+.contentFooter h4{
+    color: rgba(63, 63, 63, 1);
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.contentFooterBody{
+    background: #FFFFFF;
+border: 1px solid #DDDDDD;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+border-radius: 56px;
+width: 80%;
+margin: 40px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footerBodyContent{
+    margin: 30px 0;
+ width: 80%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.footerBodyRow{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.footerBodyRow h3 {
+font-size: 16px;
+font-weight: 800;
+color:rgba(63, 63, 63, 1);
+}
+.cyan{
+    background-color: rgba(59, 102, 120, 1);
+    color: white;
+    border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px 8px;
+font-weight: 600;
+}
+.green{
+    background-color: rgb(57, 128, 111);
+    color: white;
+    border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px 8px;
+font-weight: 600;
+height: 30px;
+width: 30px;
+}
+.yellow{
+    background-color: rgba(181, 146, 59, 1);
+    color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px 8px;
+border-radius: 50%;
+height: 30px;
+width: 30px;
+
+}
+.contentFooterProgressBar{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
